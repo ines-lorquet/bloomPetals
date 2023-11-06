@@ -82,11 +82,14 @@ h2 {
 }
 
 .bouquet {
+    display: flex;
+    flex-wrap: wrap;
     height: 200px;
     margin: 0 5px;
     border-radius: 30px;
     border: 2px solid #ac84c8;
     width: 200px;
+
 
     transition: width 2s, height 2s;  
 }
@@ -96,10 +99,14 @@ h2 {
   }
 .bloc_groupe {
     display: flex;
-    justify-content: center;    
+    justify-content: center; 
+    flex-wrap: wrap;   
 }
 
 .bloc_bouquet {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     border-radius: 10px;
     margin: 0 5px;
 }
@@ -112,10 +119,15 @@ hr {
 .services {
     border: 2px solid #ac84c8;
     border-radius: 30px;
-    width: 340px;
+    width: 300px;
     padding: 0 7px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .bloc_services {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 10px;
 }
